@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <PackageProjectUrl>https://github.com/zhrjin/Ocelot.Provider.ZooKeeper</PackageProjectUrl>
+		<PackageId>Lime.ZooKeeper.Client</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
+        <PackageReference Include="ZooKeeperNetEx" Version="3.4.12.4" />
+    </ItemGroup>
+</Project>

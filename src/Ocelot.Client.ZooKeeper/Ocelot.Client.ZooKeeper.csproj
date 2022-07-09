@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+        <PackageProjectUrl>https://github.com/zhrjin/Ocelot.Provider.ZooKeeper</PackageProjectUrl>
+		<PackageId>Lime.Ocelot.Client.ZooKeeper</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+        <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+        <OutputType>Library</OutputType>
+		<IsPackable>true</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+      <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+      <PackageReference Include="System.Text.Json" Version="6.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ZooKeeper.Client\ZooKeeper.Client.csproj" />
+    </ItemGroup>
+
+</Project>
