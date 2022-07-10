@@ -5,7 +5,7 @@
         <LangVersion>10</LangVersion>
         <PackageProjectUrl>https://github.com/zhrjin/Ocelot.Provider.ZooKeeper</PackageProjectUrl>
 		<PackageId>Lime.ZooKeeper.Client</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		<PackageVersion>1.2.0</PackageVersion>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />

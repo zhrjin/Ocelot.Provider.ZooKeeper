@@ -7,13 +7,13 @@
     <VersionPrefix>1.0.0</VersionPrefix>
     <AssemblyName>Ocelot.Provider.ZooKeeper</AssemblyName>
     <PackageId>Lime.Ocelot.Provider.ZooKeeper</PackageId>
-    <PackageTags>API Gateway;.NET core</PackageTags>
+    <PackageTags>API Gateway;.NET6</PackageTags>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Version>1.0</Version>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.2.0</PackageVersion>
     <LangVersion>10</LangVersion>
     <PackageProjectUrl>https://github.com/zhrjin/Ocelot.Provider.ZooKeeper</PackageProjectUrl>
   </PropertyGroup>
